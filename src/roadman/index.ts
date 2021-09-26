@@ -1,6 +1,6 @@
 import type {ApolloServer} from 'apollo-server-express';
 import type http from 'http';
-import type {Application, Request, Response} from 'express';
+import type {Application} from 'express';
 import type {RedisPubSub} from 'graphql-redis-subscriptions';
 
 export interface RoadmanBuild {
@@ -11,4 +11,4 @@ export interface RoadmanBuild {
     resolvers?: Function[];
 }
 
-export type IRoadMan = (args: RoadmanBuild) => Promise<RoadmanBuild>;
+export type RoadMan = (args: RoadmanBuild) => Promise<RoadmanBuild>;
