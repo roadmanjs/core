@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img width="500px" src="./docs/roadman-baby.jpg"></img>
+<img width="300px" src="./docs/roadman-baby.jpg"></img>
 
 
 </div>
