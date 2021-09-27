@@ -1,5 +1,5 @@
 {
-    "name": "@rmjs/core",
+    "name": "@roadmanjs/core",
     "version": "0.0.1",
     "description": "Roadman core",
     "main": "dist/index.js",
